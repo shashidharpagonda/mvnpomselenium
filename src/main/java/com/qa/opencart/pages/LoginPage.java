@@ -24,6 +24,8 @@ public class LoginPage {
 	
 	private By forgotPassword = By.xpath("//div[@class='list-group']/a[text()='Forgotten Password']");
 	
+	private By shashi =By.cssSelector("div#content h1"); // For 2nd check-in to remote git repo
+	
 	//2. public Page class Constructor
 	public LoginPage(WebDriver driver)
 	{
